@@ -1,4 +1,6 @@
-#!/bin/bash -e
+#!/usr/bin/env bash
+
+set -e
 
 MAJOR_VERSION=$(echo "$KAFKA_VERSION" | cut -d. -f1)
 export MAJOR_VERSION
